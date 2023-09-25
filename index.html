@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="../fontawesome-css/css/all.css" /> -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>To-Do App</title>
+  </head>
+  <body>
+    <div class="container">
+      <p class="alert alert-display"></p>
+
+      <div class="today">
+        <p class="date"></p>
+        <p class="time"></p>
+      </div>
+
+      <h2>My To-Do List</h2>
+      <i class="fas fa-list"></i>
+
+      <form class="form">
+        <input type="text" class="input" placeholder="Enter a todo..." />
+        <button type="submit" class="button">
+          <i class="fas fa-plus"></i>
+        </button>
+      </form>
+
+      <ul class="list-container"></ul>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/0f816a078b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
